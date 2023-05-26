@@ -13,4 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/', [\App\Http\Controllers\EmployeeController::class, 'index']);
 Route::resource('employees', \App\Http\Controllers\EmployeeController::class);
