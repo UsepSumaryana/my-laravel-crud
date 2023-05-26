@@ -1,0 +1,48 @@
+.btn-primary {
+    background-color: rgb(34, 70, 149) !important;
+}
+
+thead {
+    background-color: rgb(235, 237, 239);
+    border: none !important;
+    border-style: none;
+    padding: 50px !important;
+}
+
+tbody {
+    border: none !important;
+    border-style: none;
+}
+
+td {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+
+td:first-child {
+    padding-left: 50px;
+    padding-right: 0;
+}
+
+th {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+
+th:first-child {
+    padding-left: 50px;
+    padding-right: 0;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: rgb(34, 70, 149);
+    border-color: rgb(34, 70, 149);
+}
+
+.page-link {
+    color: rgb(34, 70, 149);
+}
