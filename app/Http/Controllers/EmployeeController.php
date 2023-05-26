@@ -43,7 +43,7 @@ class EmployeeController extends Controller
             'nama'     => 'required|min:10',
             'jabatan'  => 'required',
             'tanggal_lahir' => 'required',
-            'alamat' => 'required',
+            'alamat' => 'required|min:5',
         ]);
 
         //create employees
@@ -73,8 +73,8 @@ class EmployeeController extends Controller
         $this->validate($request, [
             'nama'     => 'required|min:10',
             'jabatan'  => 'required',
-            'tanggal_lahir' => 'required',
-            'alamat' => 'required',
+            'tanggal_lahir' => 'required|date',
+            'alamat' => 'required|min:5',
         ]);
 
         //get employee by ID
